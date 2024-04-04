@@ -1,9 +1,9 @@
 # Site settings
-title: Digital Portfolio
+title: Victoria Bockman Portfolio
 author:
   name: Victoria Bockman
   email: bockman.vic@gmail.com
 description: "College portfolio"
 
 # Build settings
-remote_theme: jekyll/minima
+remote_theme: qwtel/hydejack
