@@ -1,6 +1,6 @@
 ---
-title: Recume
-layout: template
+title: Resume
+layout: home
 filename: resume
 --- 
 
