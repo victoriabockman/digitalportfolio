@@ -6,7 +6,7 @@ author:
 description: "College portfolio"
 
 # Build settings
-remote_theme: jamigibbs/phantom
+remote_theme: abhinavs/moonwalk
 
 #jekyll/minima
 #qwtel/hydejack
