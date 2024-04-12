@@ -5,6 +5,16 @@ author:
   email: bockman.vic@gmail.com
 description: "College portfolio"
 
+navbar_entries:
+  - title: about
+    url: about
+
+  - title: blog
+    url: blog
+
+  - title: website
+    url: nothing
+    
 # Build settings
 remote_theme: abhinavs/moonwalk
 
