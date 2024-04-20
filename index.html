@@ -2,31 +2,44 @@
 layout: home
 --- 
 
-    <head>
-      <link rel="stylesheet" href="style.css">
-      <style>
-        ul {
-          list-style-type: none;
-          margin: 0;
-          padding: 0;
-        }
-        
-        li {
-          display: inline;
-        }
-        </style>
-      <nav>
-    <ul>
-      <li><a href="index.html" style="text-decoration:none;">Home</a></li>
-      <li><a href="about.html" style="text-decoration:none;">About Me</a></li>
-      <li><a href="projects.html" style="text-decoration:none;">Academic Projects</a></li>
-      <li><a href="extra.html" style="text-decoration:none;">Extracurricular</a></li>
-      <li><a href="resume.html" style="text-decoration:none;">Resume</a></li>
-      <li><a href="social.html" style="text-decoration:none;">Social Media</a></li>
-    </ul>
-  </nav>
-    <h1 style="text-align:center;">Homepage</h1>
-    </head>
+<head>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+    }
+    
+    li {
+      display: inline;
+    }
+
+    /* Centering the navigation bar */
+    .nav-container {
+      text-align: center;
+    }
+
+    nav {
+      display: inline-block; /* Ensures that the nav element doesn't take full width */
+    }
+  </style>
+</head>
+<body>
+  <div class="nav-container">
+    <nav>
+      <ul>
+        <li><a href="index.html" style="text-decoration:none;">Home</a></li>
+        <li><a href="about.html" style="text-decoration:none;">About Me</a></li>
+        <li><a href="projects.html" style="text-decoration:none;">Academic Projects</a></li>
+        <li><a href="extra.html" style="text-decoration:none;">Extracurricular</a></li>
+        <li><a href="resume.html" style="text-decoration:none;">Resume</a></li>
+        <li><a href="social.html" style="text-decoration:none;">Social Media</a></li>
+      </ul>
+    </nav>
+  </div>
+  <h1 style="text-align:center;">Homepage</h1>
+</body>
 
 <body>
 <p><img src="professional_photo.jpg" alt="Me"></p>
