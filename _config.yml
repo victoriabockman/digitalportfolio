@@ -16,7 +16,9 @@ navbar_entries:
     url: nothing
     
 # Build settings
-remote_theme: abhinavs/moonwalk
+remote_theme: jekyll/minima
+
+#abhinavs/moonwalk
 
 #jekyll/minima
 #qwtel/hydejack
