@@ -16,7 +16,7 @@ navbar_entries:
     url: nothing
     
 # Build settings
-remote_theme: brianmaierjr/long-haul
+remote_theme: abhinavs/moonwalk
 
 #abhinavs/moonwalk
 
