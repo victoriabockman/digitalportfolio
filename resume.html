@@ -2,21 +2,48 @@
 layout: home
 --- 
 
-<body>
-    <header>
-      <link rel="stylesheet" href="style.css">
-      <nav>
-    <ul>
-      <li><a href="index.html">Home</a></li>
-      <li><a href="about.html">About Me</a></li>
-      <li><a href="projects.html">Academic Projects</a></li>
-      <li><a href="extra.html">Extracurricular</a></li>
-      <li><a href="resume.html">Resume</a></li>
-      <li><a href="social.html">Social Media</a></li>
-    </ul>
-  </nav>
-    <h1 style="text-align:center;">Resume</h1>
-    </header>
-  </body>
+<head>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    
+  ul { 
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #ffffff; 
+  }
 
-<p>Resume stuff</p>
+  li {
+    float: left;
+    width: 16.66%;
+  }
+
+  li a {
+    display: block;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+  li a:hover {
+    background-color: #5f5f5f;
+  }
+    
+    </style>
+  <nav>
+<ul>
+  <li><a href="index.html" style="text-decoration:none;">Home</a></li>
+  <li><a href="about.html" style="text-decoration:none;">About Me</a></li>
+  <li><a href="projects.html" style="text-decoration:none;">Projects</a></li>
+  <li><a href="extra.html" style="text-decoration:none;">Extracurricular</a></li>
+  <li><a href="resume.html" style="text-decoration:none;">Resume</a></li>
+  <li><a href="social.html" style="text-decoration:none;">Social</a></li>
+</ul>
+</nav>
+<h1 style="text-align:center;">Resume</h1>
+    </head>
+<body>
+  <p>Resume stuff</p>
+  </body>
